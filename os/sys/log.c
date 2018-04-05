@@ -200,6 +200,8 @@ log_level_to_str(int level)
       return "Errors";
     case LOG_LEVEL_WARN:
       return "Warnings";
+    case LOG_LEVEL_STAT:
+      return "Stats";
     case LOG_LEVEL_INFO:
       return "Info";
     case LOG_LEVEL_DBG:
